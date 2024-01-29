@@ -114,8 +114,10 @@
         color:"rgb(91, 192, 222)",
         defaults: {
             name: {value:"Octopus"},
-            region: {value:"A"},
+            region: {value:"G"},
             numblocks: {value:"4"}
+            URL: {value:"https://api.octopus.energy/v1/products/AGILE-FLEX-22-11-25/electricity-tariffs/E-1R-AGILE-FLEX-22-11-25-"}
+            
         },
         inputs:1,
         outputs:3,
@@ -123,7 +125,7 @@
         icon: "octopus.png",
         align: "right",
         label: function() {
-            return this.name||this.region;
+            return this.name||this.region||this.URL;
         },
         labelStyle: function() {
             return this.name?"node_label_italic":"";
