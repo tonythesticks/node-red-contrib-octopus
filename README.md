@@ -22,7 +22,7 @@ It can also be installed into the Home Assistant Node-RED add-on with the follow
 
 ```
 npm_packages:
-  - 'git+https://github.com/borpin/node-red-contrib-octopus.git'
+  - 'git+https://github.com/tonythesticks/node-red-contrib-octopus.git'
 ```
 
 If you want the *dev* branch, add `#dev` to the end of the URL.
