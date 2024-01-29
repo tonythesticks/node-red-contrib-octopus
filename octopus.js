@@ -28,7 +28,7 @@ module.exports = function(RED) {
     
         this.region = n.region
 
-        var baseurl = "https://api.octopus.energy/v1/products/AGILE-18-02-21/electricity-tariffs/E-1R-AGILE-18-02-21-";
+        var baseurl = n.URL; //"https://api.octopus.energy/v1/products/AGILE-18-02-21/electricity-tariffs/E-1R-AGILE-18-02-21-";
         var https = require("https");
         var next_run = new Date(0);
 
