@@ -18,12 +18,11 @@ Install
 
 This package can be [installed](https://docs.npmjs.com/cli/install) directly from GitHub (not on npm currently).
 
-It can also be installed into the Home Assistant Node-RED add-on with the following configuration;
+From the ~/.node-red/node_modules directory run:
 
-```
-npm_packages:
-  - 'git+https://github.com/tonythesticks/node-red-contrib-octopus.git'
-```
+npm install https://github.com/tonythesticks/node-red-contrib-octopus.git
+
+Then restart Node-Red: node-red-restart.
 
 If you want the *dev* branch, add `#dev` to the end of the URL.
 
